@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+}
+
+
+/*Implementando la primera caja,que es el elemento contenedor*/
+.red{
+/*aplicando posicion relative para que no afecte a otro elementos*/
+position: relative;
+background-color: red;
+width: 300px;
+height: 300px;
+margin-bottom: 20px;
+}
+/*Implementando la caja interior de color morado*/
+#purple{
+  background-color: purple;
+  padding: 80px;
+  /*aplicando esta posicion para generar un eje de coordenadas*/
+  position: absolute;
+  /*aplicando coordenadas para posicionarlo al centro de la caja red*/
+  bottom: 70px;
+  right: 70px;
+
+}
+/*Implementando la caja interior de color amarillo*/
+#yellow{
+  background-color: yellow;
+  padding: 40px;
+  /*aplicando esta posicion para generar un eje de coordenadas*/
+  position: absolute;
+  /*aplicando coordenadas para posicionarlo en la parte superior izquierda dentro de la caja purple*/
+  top: 70px;
+  left: 70px;
+}
+
+/*Implementando la segunda caja*/
+.blue{
+  position: relative;
+  background-color: blue;
+  height: 300px;
+  width: 300px;
+
+}
+/*Implementando la caja interior de color verde*/
+#green{
+  background-color: green;
+  padding: 80px;
+  /*aplicando esta posicion para generar un eje de coordenadas*/
+  position: absolute;
+  /*aplicando coordenadas para posicionarlo al centro de la caja blue*/
+  bottom: 70px;
+  right: 70px;
+
+}
+/*Implementando la caja interior de color negro*/
+#black{
+  background-color: black;
+  padding: 35px;
+  /*aplicando esta posicion para generar un eje de coordenadas*/
+  position: absolute;
+  /*aplicando coordenadas para posicionarlo al lado superior izquierdo de la caja blue*/
+  top: 0;
+  left: 0;
+}
