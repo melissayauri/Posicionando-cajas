@@ -1,4 +1,4 @@
-Posicionando cajas
+# Posicionando cajas
 
 1. Autora: Melissa Yauri
 
@@ -9,4 +9,4 @@ El presente trabajo consta en aplicar los conocimientos sobre "positioning". De 
  -Css
 
 4. Imagen  
-![recursos](assets/cajas.jpg)
+![recursos](assets/cajas.JPG)
